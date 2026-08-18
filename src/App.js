@@ -10,6 +10,7 @@ function App() {
         <a href="#skills">Skills</a>
         <a href="#experience">Experience</a>
         <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
         <a href="#contact">Contact</a>
         
       </nav>
@@ -108,17 +109,83 @@ function App() {
       </section>
 
       {/* Certifications */}
-      <section className="section">
-        <h2>Certifications</h2>
+    <section id="certifications" className="section">
+      <h2>Certifications</h2>
 
-        <ul>
-          <li>Spring Boot 3 Complete Course</li>
-          <li>Python Bootcamp</li>
-          <li>Neo4j GraphDB Bootcamp</li>
-          <li>Software Testing Bootcamp</li>
-          <li>Cloud Computing Fundamentals</li>
-        </ul>
-      </section>
+    <div className="card-container">
+
+    <div className="card">
+      <a
+        href="/certificates/SpringBoot.jpg"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <h3>Spring Boot</h3>
+      </a>
+    </div>
+
+    <div className="card">
+      <a
+        href="/certificates/Python.jpg"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <h3>Python Bootcamp</h3>
+      </a>
+    </div>
+
+    <div className="card">
+      <a
+        href="/certificates/SQL.jpg"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <h3>SQL Bootcamp</h3>
+      </a>
+    </div>
+
+    <div className="card">
+      <a
+        href="/certificates/React.jpg"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <h3>React JS</h3>
+      </a>
+    </div>
+
+    <div className="card">
+      <a
+        href="/certificates/Neo4j.jpg"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <h3>Neo4j</h3>
+      </a>
+    </div>
+
+    <div className="card">
+      <a
+        href="/certificates/Software Testing.jpg"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <h3>Software Testing Bootcamp</h3>
+      </a>
+    </div>
+
+    <div className="card">
+      <a
+        href="/certificates/Cloud Computing.jpg"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <h3>Cloud Computing</h3>
+      </a>
+    </div>
+
+  </div>
+</section>
 
       {/* Contact */}
       <section id="contact" className="section">
